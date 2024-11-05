@@ -7601,6 +7601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: coche (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7118906979898838004, guid: 6010a56818cbc1b4f882e5b1b039cf82, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a30968636fc5289458289d468a50fcd8, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8099,10 +8103,10 @@ Light:
   m_GameObject: {fileID: 1155606313}
   m_Enabled: 1
   serializedVersion: 11
-  m_Type: 3
+  m_Type: 2
   m_Color: {r: 0.9622642, g: 0.80098295, b: 0.18609825, a: 1}
-  m_Intensity: 129.15
-  m_Range: 10
+  m_Intensity: 5.1
+  m_Range: 10.12
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -8140,7 +8144,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 7.75, y: 2.57}
   m_BounceIntensity: 1
