@@ -3,13 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class itemScript : MonoBehaviour
 {
-    int contador = 1;
+    int contador = 10;
 
     public GameObject puertaFinal;
+    public GameObject campana;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        campana.SetActive(false);
     }
 
     // Update is called once per frame
@@ -30,11 +31,13 @@ public class itemScript : MonoBehaviour
             if (contador == 0)
             {
                 Destroy(puertaFinal);
+                campana.SetActive(true);
             }
         }
         if (other.gameObject.tag == "Finish")
         {
-            SceneManager.LoadScene("Level2");
+            SceneManager.LoadScene("level1");
+
         }
     }
 }
